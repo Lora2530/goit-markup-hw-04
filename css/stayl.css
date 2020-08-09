@@ -202,7 +202,25 @@
     text-align: center;
     margin-top: 10px;
 }
-
+.social-icon{
+    display: flex;
+    justify-content: center;
+}
+.social-list-icon:not(:last-child){
+    margin-right: 10px;
+}
+.social-list-pcon{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+.social-list-pcon:hover .icon{
+    fill: var(--accent-color);
+}
 .List-klient{
     margin-left: 30px;
     width: 260px; 
